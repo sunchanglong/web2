@@ -1,0 +1,15 @@
+body{
+  font-size: 30px;
+}
+.test1{
+  border: 1px  dashed;
+
+  &:before {
+    content: 'abc';
+  };
+
+  .test2 {
+    padding: 10px;
+    border: 1px green;
+  }
+}
